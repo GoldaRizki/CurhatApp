@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppCatatan</string>
+    <string name="SharedKey">iniSharedKey</string>
+    <string name="SharedPref">iniSharedPref</string>
+</resources>

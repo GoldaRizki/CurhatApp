@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="#512D6D"
+        android:padding="6dp"
+        android:text="Kata kata disini"
+        android:textColor="#F5F5F5"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="#30475E"
+        android:padding="6dp"
+        android:text="Kata kata disini"
+        android:textColor="#F5F5F5"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textPengguna"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:background="#121212"
+        android:paddingLeft="6dp"
+        android:paddingTop="6dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="6dp"
+        android:text="Nama Pengguna"
+        android:textAlignment="textEnd"
+        android:textColor="#F5F5F5"
+        android:textSize="20sp" />
+</LinearLayout>
