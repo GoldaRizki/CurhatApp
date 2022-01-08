@@ -44,10 +44,6 @@ public class ActivityBuat extends AppCompatActivity {
         isi = catatan.getText().toString();
         user = pref.getString(getString(R.string.SharedPref), "");
 
-        Log.d("Lihat_inputan", jdl);
-        Log.d("Lihat_inputan", isi);
-        Log.d("Lihat_inputan", user);
-
 
 
         Call<Data> kirimData = ci.postData("tulis", user, jdl, isi);
